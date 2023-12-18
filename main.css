@@ -1,0 +1,141 @@
+[class*="col-"]{
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    h1{
+        font-family: 'Kalnia', serif;
+        font-family: 'Silkscreen', sans-serif;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+    .blue-bg{
+        position: fixed;
+        background: url(https://zoetermeer.kunstwacht.nl/cache/9/9/3/993dc3ee82c8377f376b2045054896aa_460_0.jpg);
+        background-size: cover;
+        background-color: #58aff6;
+        top: 0;
+        height: 400px;
+        width: 100vw;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+    .dark-bg{
+      position: absolute;
+      top: 0;
+      background-color: #241912;
+      min-height: 500px;
+      margin: 210px 0px;
+      width: 100vw;
+      height: 100vh;
+      transform: skewY(5deg);
+      z-index: -1;
+    }
+    .content{
+      position: absolute;
+      top: 0;
+      margin: 250px 10vw;
+      max-width: 60vw;
+      background-color: transparent;
+    } 
+    .shadow{
+      box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
+    }
+body{
+    font-size: 14px; 
+    background-color: rgb(46, 37, 37);
+    color: rgb(206, 128, 38);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: min(5px);
+    font-family: 'Kalnia', serif;
+    font-family: 'Silkscreen', sans-serif;
+}
+@media only screen and (min-width: 768px) {
+    body{background-color: rgb(32, 27, 21);
+    }
+}
+.zmeer-bg{
+    position: fixed;
+    background: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+    background-size: cover;
+    background-color: #58aff6;
+    top: 0;
+    height: 400px;
+    width: 100vw;
+    z-index: -1;
+    overflow-x: hidden;
+}
+section{
+    padding: 10px;
+    display:flex
+}
+.een ul{
+    display:inline-block;
+    background-color: rgb(75, 75, 75);
+    font-family: 'Kalnia', serif;
+    font-family: 'Silkscreen', sans-serif;
+}
+.een li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #803a00;
+    color: white;
+}
+#artikel1{
+    font-size: 14px; 
+    color: bisque;
+    display: block;
+    background-color: rgb(219, 140, 75);
+    padding-left: 10px;
+    
+}
+#artikel2{
+    font-size: 14px; 
+    color:rgb(216, 174, 122);
+    display: block;
+    background-color:rgb(150, 98, 55);
+
+    padding-left: 10px;
+    padding-bottom:10px;
+}
+#img2{
+    float: right;
+    margin-right: 5 px;
+    width: 183px;
+}
+#imgheader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer{
+    display: inline-block;
+    font-size: 12px; 
+    color: rgb(104, 91, 81);
+    padding: min(5px);
+}
+
+
+
+
+
