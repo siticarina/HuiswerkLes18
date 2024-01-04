@@ -1,8 +1,8 @@
-[class*="col-"] {
+[class*="col-"]{
     width:100%;
 }
 @media only screen and (min-width: 768px){
-    [class*="col-"] {
+    [class*="col-"]{
     float: left;
     padding: 15px;
     }
@@ -78,17 +78,9 @@ body{
     padding-bottom:75px;
     text-align: left;
 }
-
 footer{
     display: inline-block;
     font-size: 12px; 
     color: rgb(104, 91, 81);
     padding: min(5px);
 }
-
-    
-    
-    
-    
-    
-    
